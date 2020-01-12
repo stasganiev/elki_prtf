@@ -1,7 +1,7 @@
 {
   "name": "stas_ganiev",
   "version": "1.0.0",
-  "description": "Название сайта",
+  "description": "Ёлки",
   "main": "index.js",
   "scripts": {
     "editorconfig": "editorconfig-cli",
@@ -12,11 +12,10 @@
   },
   "repository": {
     "type": "git",
-    //"url": "https://github.com/Benony0/benonypro.git"
+    "url": "https://github.com/stasganiev/elki_prtf.git"
   },
   "keywords": [
-    "вёрстка",
-    "сайты"
+    "елки"
   ],
   "author": "Stas Ganiev",
   "license": "ISC",
