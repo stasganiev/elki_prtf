@@ -38,7 +38,7 @@
       </div>
       <div class="head__box">
         <p class="head__mail">info@elockagori.ru</p>
-        <button class="btn">Заказать звонок</button>
+        <button class="btn btn__main btn__main_dark btn__order-call">Заказать звонок</button>
       </div>
     </div>
   </header>
@@ -56,10 +56,10 @@
 
   <main>
 
-    <div class="main-face">
+    <div class="block main-face">
       <div class="container">
         <h1 class="main-face__head">Используйте все возможности приближающегося праздника!</h1>
-        <p class="main-face__lead">Закажите новогодний набор сейчас и получите дополнительную скидку 15% от оптоывых цен</p>
+        <p class="main-face__lead">Закажите новогодний набор сейчас и получите дополнительную <span class="main-face__lead main-face__lead_strong">скидку 15%</span> от оптоывых цен</p>
 
         <form class="main-face__form form" method="POST" action="benony.pro">
 
@@ -67,9 +67,9 @@
             <div class="form__content">
               <h2 class="form__head">Получи оптовые цены сейчас</h2>
               <div class="form__dialog-box">
-                <input type="text" name="username" required placeholder="Ваше имя">
-                <input type="text" name="userphone" required placeholder="Ваш телефон">
-                <button type="submit">Скачать прайс</button>
+                <input class="input__text" type="text" name="username" required placeholder="Ваше имя">
+                <input class="input__text" type="text" name="userphone" required placeholder="Ваш телефон">
+                <button class="btn btn__main btn__main_dark btn__download" type="submit">Скачать прайс</button>
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@
       </div>
     </div>
 
-    <div class="aboutus">
+    <div class="block aboutus">
       <div class="container">
         <h2 class="aboutus__head">О нас</h2>
         <ul class="aboutus__list perfects">
@@ -104,6 +104,131 @@
             <p class="perfects__text">встретили 2015 год с нами</p>
           </li>
         </ul>
+      </div>
+    </div>
+
+    <div class="block order">
+      <div class="container">
+        <div class="order__content">
+          <h2 class="order__head">Закажите до 10 ноября</h2>
+          <p class="order__text">на сумму от 100 000 рублей</p>
+          <p class="order__text">и получите дополнительную скидку 15%</p>
+          <p class="order__text">В декабре скидка 5%</p>
+
+          <form action="" class="form">
+
+            <input class="input__text" type="text" name="username" required placeholder="Ваше имя">
+            <input class="input__text" type="text" name="userphone" required placeholder="Ваш телефон">
+            <button class="btn btn__main btn__main_light btn__order" type="submit">Оставить заявку</button>
+
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="block stat">
+      <div class="container">
+        <div class="stat__content">
+          <h3 class="stat__head">У нас уже заказали:</h3>
+          <p class="stat__numer">1</p>
+          <p class="stat__numer">5</p>
+          <p class="stat__head">человек</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="block complects">
+      <div class="container">
+        <h2 class="complects__head">Наши эффективные наборы</h2>
+        <p class="complects__text">Мы разработали для Вас готовые наборы на основе статистики наших клиентов!</p>
+
+        <ul class="complects__card-list catalog">
+
+          <li class="catalog__item">
+            <div class="catalog__wrap-top">
+              <img class="catalog__img" src="img/temp.jpg" width="147" height="147" alt="Товар">
+              <ul class="catalog__properteas">
+                <li class="catalog__property">
+                  <img class="catalog__property-img" src="img/temp.jpg" width="22" height="30" alt="">
+                  <p class="catalog__property-text">40 см. - 100 шт.</p>
+                </li>
+                <li class="catalog__property">
+                  <img class="catalog__property-img" src="img/temp.jpg" width="22" height="30" alt="">
+                  <p class="catalog__property-text">80 см. - 50 шт.</p>
+                </li>
+                <li class="catalog__property">
+                  <img class="catalog__property-img" src="img/temp.jpg" width="22" height="30" alt="">
+                  <p class="catalog__property-text">1500 см. - 30 шт.</p>
+                </li>
+                <li class="catalog__property">
+                  <img class="catalog__property-img" src="img/temp.jpg" width="22" height="30" alt="">
+                  <p class="catalog__property-text">2000 см. - 50 шт.</p>
+                </li>
+              </ul>
+            </div>
+            <div class="catalog__wrap-bottom">
+              <ul class="catalog__grand-list">
+                <li class="catalog__grand-item">
+                  <span class="catalog__grand-item-text">Срок реализации -</span>
+                  <span class="catalog__grand-item-text">1 месяц</span>
+                </li>
+                <li class="catalog__grand-item">
+                  <span class="catalog__grand-item-text">Ваша закупка -</span>
+                  <span class="catalog__grand-item-text">1 месяц</span>
+                </li>
+                <li class="catalog__grand-item">
+                  <span class="catalog__grand-item-text">Ваша закупка -</span>
+                  <span class="catalog__grand-item-text">1 месяц</span>
+                </li>
+              </ul>
+              <button class="btn btn__main btn__main_dark btn__order-by">Оставить заявку</button>
+            </div>
+          </li>
+
+          <li class="catalog__item">
+            <div class="catalog__wrap-top">
+              <img class="catalog__img" src="img/temp.jpg" width="147" height="147" alt="Товар">
+              <ul class="catalog__properteas">
+                <li class="catalog__property">
+                  <img class="catalog__property-img" src="img/temp.jpg" width="22" height="30" alt="">
+                  <p class="catalog__property-text">40 см. - 100 шт.</p>
+                </li>
+                <li class="catalog__property">
+                  <img class="catalog__property-img" src="img/temp.jpg" width="22" height="30" alt="">
+                  <p class="catalog__property-text">80 см. - 50 шт.</p>
+                </li>
+                <li class="catalog__property">
+                  <img class="catalog__property-img" src="img/temp.jpg" width="22" height="30" alt="">
+                  <p class="catalog__property-text">1500 см. - 30 шт.</p>
+                </li>
+                <li class="catalog__property">
+                  <img class="catalog__property-img" src="img/temp.jpg" width="22" height="30" alt="">
+                  <p class="catalog__property-text">2000 см. - 50 шт.</p>
+                </li>
+              </ul>
+            </div>
+            <div class="catalog__wrap-bottom">
+              <ul class="catalog__grand-list">
+                <li class="catalog__grand-item">
+                  <span class="catalog__grand-item-text">Срок реализации -</span>
+                  <span class="catalog__grand-item-text">1 месяц</span>
+                </li>
+                <li class="catalog__grand-item">
+                  <span class="catalog__grand-item-text">Ваша закупка -</span>
+                  <span class="catalog__grand-item-text">1 месяц</span>
+                </li>
+                <li class="catalog__grand-item">
+                  <span class="catalog__grand-item-text">Ваша закупка -</span>
+                  <span class="catalog__grand-item-text">1 месяц</span>
+                </li>
+              </ul>
+              <button class="btn btn__main btn__main_dark btn__order-by">Оставить заявку</button>
+            </div>
+          </li>
+
+        </ul>
+
       </div>
     </div>
 
