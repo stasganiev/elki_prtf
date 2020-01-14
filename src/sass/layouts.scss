@@ -37,6 +37,43 @@
 }
 
 // ////////////////////////////
+// Резиновый контейнер
+// ////////////////////////////
+.container-rsz {
+  width: 100%;
+}
+
+@media (max-width: $xs-max) {
+  .container-rsz {
+    padding: 0 $xs-padding;
+  }
+}
+
+@media (min-width: $s-min) and (max-width: $s-max) {
+  .container-rsz {
+    padding: 0 $s-padding;
+  }
+}
+
+@media (min-width: $m-min) and (max-width: $m-max) {
+  .container-rsz {
+    padding: 0 $m-padding;
+  }
+}
+
+@media (min-width: $l-min) and (max-width: $l-max) {
+  .container-rsz {
+    padding: 0 $l-padding;
+  }
+}
+
+@media (min-width: $xl-min) {
+  .container-rsz {
+    padding: 0 $xl-padding;
+  }
+}
+
+// ////////////////////////////
 // Видимость
 // ////////////////////////////
 .visually-hidden {
