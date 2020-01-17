@@ -26,11 +26,11 @@
   <header class="head">
     <div class="head__wrapper container-rsz">
       <div class="head__box1">
-        <img class="head__logo logo" src="img/logo.png" width="271" height="65" alt="ёлочка">
+        <img class="head__logo" src="img/logo.png" width="271" height="65" alt="ёлочка">
       </div>
       <div class="head__box2">
         <p class="head__contact-title">Есть вопросы? Звоните!</p>
-        <p class="head__contact">8 (800) 200-40-17</p>
+        <p class="head__contact head__contact_tel1">8 (800) 200-40-17</p>
         <p class="head__contact">+7 (499) 404-14-31</p>
       </div>
       <div class="head__box3">
@@ -40,69 +40,80 @@
     </div>
   </header>
 
-  <nav class="nav-menu">
+  <nav class="menu-nav">
     <div class="container-rsz">
-      <ul class="menu">
-        <li class="menu__item">Искусственные елки</li>
-        <li class="menu__item">Живые елки</li>
-        <li class="menu__item">Елочки из конфет</li>
-        <li class="menu__item">Украшения для елок</li>
+      <ul class="menu-nav__box menu list-default">
+        <li class="menu__item">
+          <a href="" class="menu__link">Искусственные елки</a>
+        </li>
+        <li class="menu__item">
+          <a href="" class="menu__link">Живые елки</a>
+        </li>
+        <li class="menu__item">
+          <a href="" class="menu__link">Елочки из конфет</a>
+        </li>
+        <li class="menu__item">
+          <a href="" class="menu__link">Украшения для елок</a>
+        </li>
       </ul>
     </div>
   </nav>
 
   <main>
 
-    <div class="block main-face">
-      <div class="container-rsz">
-        <h1 class="main-face__head">Используйте все возможности приближающегося праздника!</h1>
-        <p class="main-face__lead">Закажите новогодний набор сейчас и получите дополнительную <span class="main-face__lead main-face__lead_strong">скидку 15%</span> от оптоывых цен</p>
+    <section class="block offer">
 
-        <form class="main-face__form form" method="POST" action="benony.pro">
+      <div class="main-face">
+        <div class="container-rsz">
+          <h1 class="main-face__head">Используйте все возможности</h1>
+          <h2 class="main-face__subhead">приближающегося праздника!</h2>
+          <p class="main-face__lead">Закажите новогодний набор сейчас и получите дополнительную <span class="main-face__lead_strong">скидку 15%</span> от оптоывых цен</p>
 
-          <div class="form__wrapper">
-            <div class="form__content">
-              <h2 class="form__head">Получи оптовые цены сейчас</h2>
-              <div class="form__dialog-box">
-                <input class="input__text" type="text" name="username" required placeholder="Ваше имя">
-                <input class="input__text" type="text" name="userphone" required placeholder="Ваш телефон">
-                <button class="btn btn__main btn__main_dark btn__download" type="submit">Скачать прайс</button>
+          <form class="main-face__form form-offer" method="POST" action="benony.pro">
+
+            <div class="form-offer__content">
+              <h2 class="form-offer__head">Получи оптовые цены сейчас</h2>
+              <div class="form-offer__dialog-box">
+                <input class="input input__text" type="text" name="username" required placeholder="Ваше имя">
+                <input class="input input__text" type="text" name="userphone" required placeholder="Ваш телефон">
+                <button class="btn btn__main btn__main_dark btn__main_long btn__download" type="submit">Скачать прайс</button>
               </div>
             </div>
-          </div>
 
-        </form>
+          </form>
 
+        </div>
       </div>
-    </div>
 
-    <div class="block aboutus">
-      <div class="container-rsz">
-        <h2 class="aboutus__head">О нас</h2>
-        <ul class="aboutus__list perfects">
-          <li class="perfects__item">
-            <img class="perfects__img" src="img/temp.jpg" width="100" height="100" alt="Производство">
-            <h3 class="perfects__text-head">Мы производители</h3>
-            <p class="perfects__text">Вы получите гарантию лучших цен</p>
-          </li>
-          <li class="perfects__item">
-            <img class="perfects__img" src="img/temp.jpg" width="100" height="100" alt="Доставка">
-            <h3 class="perfects__text-head">Бесплатная доставка</h3>
-            <p class="perfects__text">по всей России</p>
-          </li>
-          <li class="perfects__item">
-            <img class="perfects__img" src="img/temp.jpg" width="100" height="100" alt="Цены">
-            <h3 class="perfects__text-head">Ниже оптовых цен</h3>
-            <p class="perfects__text">конкурентов на 17-23%</p>
-          </li>
-          <li class="perfects__item">
-            <img class="perfects__img" src="img/temp.jpg" width="100" height="100" alt="Статистика">
-            <h3 class="perfects__text-head">163000 семей</h3>
-            <p class="perfects__text">встретили 2015 год с нами</p>
-          </li>
-        </ul>
+      <div class="block aboutus">
+        <div class="container-rsz">
+          <h2 class="aboutus__head">О нас</h2>
+          <ul class="aboutus__list perfects list-default">
+            <li class="perfects__item">
+              <img class="perfects__img" src="img/temp.jpg" width="100" height="100" alt="Производство">
+              <h3 class="perfects__text-head">Мы производители</h3>
+              <p class="perfects__text">Вы получите гарантию лучших цен</p>
+            </li>
+            <li class="perfects__item">
+              <img class="perfects__img" src="img/temp.jpg" width="100" height="100" alt="Доставка">
+              <h3 class="perfects__text-head">Бесплатная доставка</h3>
+              <p class="perfects__text">по всей России</p>
+            </li>
+            <li class="perfects__item">
+              <img class="perfects__img" src="img/temp.jpg" width="100" height="100" alt="Цены">
+              <h3 class="perfects__text-head">Ниже оптовых цен</h3>
+              <p class="perfects__text">конкурентов на 17-23%</p>
+            </li>
+            <li class="perfects__item">
+              <img class="perfects__img" src="img/temp.jpg" width="100" height="100" alt="Статистика">
+              <h3 class="perfects__text-head">163000 семей</h3>
+              <p class="perfects__text">встретили 2015 год с нами</p>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
+
+    </section>
 
     <div class="block order">
       <div class="container-rsz">
@@ -233,7 +244,7 @@
 
   <!-- Наполнение страницы -->
 
-  <img class="" src="" width="" height="" alt="">
+  <!-- <img class="" src="" width="" height="" alt=""> -->
 
   <!-- Адаптивная картинка -->
   <picture>

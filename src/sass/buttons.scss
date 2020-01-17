@@ -11,6 +11,28 @@
   cursor: pointer;
 }
 
+.btn__main {
+  padding: 11px 30px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 0 0 5px 5px $shadow;
+  border-radius: 4px;
+
+  &_dark {
+    @include colors($txt-color-light, $base-color-2);
+  }
+
+  &_light {
+    @include colors($txt-color-light, $base-color-1);
+  }
+
+  &_long {
+    font-size: 20px;
+    padding: 18px 75px;
+  }
+}
+
 // ////////////////////////////
 // Главное меню (кнопка "Бургер")
 // ////////////////////////////

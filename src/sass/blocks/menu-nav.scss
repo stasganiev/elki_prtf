@@ -1,0 +1,17 @@
+.menu-nav {
+  @include colors($txt-color-light, $base-color-1);
+  font-size: 18px;
+}
+
+.menu-nav__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+@media (max-width: $xs-max) {
+  .menu-nav {
+    font-size: 16px;
+  }
+}

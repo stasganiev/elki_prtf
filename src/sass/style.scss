@@ -9,5 +9,13 @@
 @import "copyright.scss";
 // Блоки
 @import "blocks/head.scss";
+@import "blocks/menu-nav.scss";
+@import "blocks/menu.scss";
+@import "blocks/main-face.scss";
+@import "blocks/offer.scss";
+@import "blocks/perfects.scss";
+// формы
+@import "blocks/form-offer.scss";
+@import "blocks/input.scss";
 // Служебные
-// @import "outlines.scss";
+@import "outlines.scss";

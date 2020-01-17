@@ -1,0 +1,13 @@
+.menu__item {
+  margin: 11px 12px 12px;
+}
+
+.menu__link {
+  text-decoration: underline;
+}
+
+@media (max-width: $xs-max) {
+  .menu__item {
+    margin: 9px 10px 10px;
+  }
+}

@@ -1,0 +1,19 @@
+.input {
+  margin-right: 10px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+
+  font-size: 16px;
+
+  background-color: $bg-input;
+  border: 1px solid $border-input;
+  border-radius: 4px;
+}
+
+.input__text {
+  padding: 18px 21px;
+}
+
+.input__text::placeholder {
+  font-style: italic;
+}

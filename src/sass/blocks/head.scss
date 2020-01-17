@@ -17,14 +17,53 @@
 
 .head__contact-title {
   margin: 0;
+  text-align: right;
 }
 
 .head__contact {
   margin: 0;
   font-size: 18px;
   font-weight: bold;
+  text-align: right;
+
+  &_tel1 {
+    margin-top: 8px;
+    margin-bottom: 2px;
+  }
 }
 
 .head__mail {
   margin: 0;
+  margin-bottom: 8px;
+  text-decoration: underline;
+  text-align: right;
+  color: $base-color-1;
+}
+
+.head__logo {
+  @include size(271px, 65px);
+}
+
+@media (max-width: $xs-max) {
+  .head__box2 {
+    display: none;
+  }
+
+  .head__logo {
+    @include size(217px, 52px);
+  }
+}
+
+@media (min-width: $s-min) and (max-width: $s-max) {
+  .head__box3 {
+    margin-left: 20px;
+  }
+
+  .head__contact {
+    font-size: 16px;
+  }
+
+  .head__logo {
+    @include size(244px, 58px);
+  }
 }
