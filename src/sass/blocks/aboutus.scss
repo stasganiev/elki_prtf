@@ -1,0 +1,11 @@
+.aboutus {
+
+}
+
+.aboutus__head {
+  @include nospace;
+  margin-bottom: 75px;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}

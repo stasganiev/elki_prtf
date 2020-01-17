@@ -1,6 +1,33 @@
 .perfects {
   display: flex;
+  margin-bottom: 40px;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+.perfects__item {
+  flex-grow: 1;
+  margin: 0 10px 40px 10px;
+  max-width: 190px;
+}
+
+.perfects__img {
+  display: block;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-left: auto;
+}
+
+.perfects__text-head,
+.perfects__text {
+  @include nospace;
+  font-size: 18px;
+  text-align: center;
+}
+
+.perfects__text-head {
+}
+
+.perfects__text {
 }
