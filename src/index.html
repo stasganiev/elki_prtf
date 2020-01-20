@@ -76,7 +76,7 @@
               <div class="form-offer__dialog-box">
                 <input class="input input__text" type="text" name="username" required placeholder="Ваше имя">
                 <input class="input input__text" type="text" name="userphone" required placeholder="Ваш телефон">
-                <button class="btn btn__main btn__main_dark btn__main_long btn__download" type="submit">Скачать прайс</button>
+                <button class="btn btn__main btn__main_dark btn__main_long offer__btn" type="submit">Скачать прайс</button>
               </div>
             </div>
 
@@ -90,22 +90,30 @@
           <h2 class="aboutus__head">О нас</h2>
           <ul class="aboutus__list perfects list-default">
             <li class="perfects__item">
-              <img class="perfects__img" src="img/temp.jpg" width="100" height="100" alt="Производство">
+              <div class="perfects__img-box">
+                <img class="perfects__img" src="img/icon-perfect-1.png" width="40" height="40" alt="Производство">
+              </div>
               <h3 class="perfects__text-head">Мы производители</h3>
               <p class="perfects__text">Вы получите гарантию лучших цен</p>
             </li>
             <li class="perfects__item">
-              <img class="perfects__img" src="img/temp.jpg" width="100" height="100" alt="Доставка">
+              <div class="perfects__img-box">
+                <img class="perfects__img" src="img/icon-perfect-2.png" width="40" height="40" alt="Доставка">
+              </div>
               <h3 class="perfects__text-head">Бесплатная доставка</h3>
               <p class="perfects__text">по всей России</p>
             </li>
             <li class="perfects__item">
-              <img class="perfects__img" src="img/temp.jpg" width="100" height="100" alt="Цены">
+              <div class="perfects__img-box">
+                <img class="perfects__img" src="img/icon-perfect-3.png" width="40" height="40" alt="Цены">
+              </div>
               <h3 class="perfects__text-head">Ниже оптовых цен</h3>
               <p class="perfects__text">конкурентов на 17-23%</p>
             </li>
             <li class="perfects__item">
-              <img class="perfects__img" src="img/temp.jpg" width="100" height="100" alt="Статистика">
+              <div class="perfects__img-box">
+                <img class="perfects__img" src="img/icon-perfect-4.png" width="40" height="40" alt="Статистика">
+              </div>
               <h3 class="perfects__text-head">163000 семей</h3>
               <p class="perfects__text">встретили 2015 год с нами</p>
             </li>
@@ -121,13 +129,15 @@
           <h2 class="order__head">Закажите до 10 ноября</h2>
           <p class="order__text">на сумму от 100 000 рублей</p>
           <p class="order__text">и получите дополнительную скидку 15%</p>
-          <p class="order__text">В декабре скидка 5%</p>
+          <p class="order__text order__text_small">В декабре скидка 5%</p>
 
-          <form action="" class="form">
+          <form action="" class="form-order">
 
-            <input class="input__text" type="text" name="username" required placeholder="Ваше имя">
-            <input class="input__text" type="text" name="userphone" required placeholder="Ваш телефон">
-            <button class="btn btn__main btn__main_light btn__order" type="submit">Оставить заявку</button>
+            <div class="form-order__content">
+              <input class="input__text" type="text" name="username" required placeholder="Ваше имя">
+              <input class="input__text" type="text" name="userphone" required placeholder="Ваш телефон">
+              <button class="btn btn__main btn__main_light btn__main_long order__btn" type="submit">Оставить заявку</button>
+            </div>
 
           </form>
 
@@ -139,9 +149,13 @@
       <div class="container-rsz">
         <div class="stat__content">
           <h3 class="stat__head">У нас уже заказали:</h3>
-          <p class="stat__numer">1</p>
-          <p class="stat__numer">5</p>
-          <p class="stat__head">человек</p>
+          <div class="stat__numer-box">
+            <p class="stat__numer">1</p>
+          </div>
+          <div class="stat__numer-box">
+            <p class="stat__numer">5</p>
+          </div>
+          <p class="stat__subhead">человек</p>
         </div>
       </div>
     </div>

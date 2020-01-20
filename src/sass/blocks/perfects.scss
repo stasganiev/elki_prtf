@@ -12,11 +12,21 @@
   max-width: 190px;
 }
 
-.perfects__img {
-  display: block;
+.perfects__img-box {
   margin-right: auto;
   margin-bottom: 30px;
   margin-left: auto;
+  @include size;
+  border: 2px solid $base-color-1-dark;
+  border-radius: 100px;
+}
+
+.perfects__img {
+  display: block;
+  margin: auto;
+  margin-top: 27px;
+  width: 40px;
+  height: auto;
 }
 
 .perfects__text-head,

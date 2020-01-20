@@ -1,0 +1,93 @@
+.stat {
+  margin-top: 0;
+  background-color: $base-color-2;
+}
+
+.stat__content {
+  padding: 35px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.stat__numer-box {
+  margin-right: 3px;
+  margin-left: 3px;
+  padding: 5px 10px;
+  background-color: $bk-color;
+  border-radius: 8px;
+}
+
+.stat__head,
+.stat__subhead,
+.stat__numer {
+  @include nospace;
+  font-size: 40px;
+  font-weight: bold;
+  color: $txt-color-light;
+}
+
+.stat__head {
+  margin-right: 30px;
+}
+
+.stat__subhead {
+  margin-left: 30px;
+}
+
+.stat__numer {
+  color: $txt-color;
+}
+
+@media (max-width: $xs-max) {
+  .stat__content {
+    padding: 25px 0;
+  }
+
+  .stat__numer-box {
+    margin-right: 2px;
+    margin-left: 2px;
+    padding: 4px 8px;
+  }
+
+  .stat__head,
+  .stat__subhead,
+  .stat__numer {
+    font-size: 26px;
+  }
+
+  .stat__head {
+    margin-right: 20px;
+  }
+
+  .stat__subhead {
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: $s-min) and (max-width: $s-max) {
+  .stat__content {
+    padding: 30px 0;
+  }
+
+  .stat__numer-box {
+    margin-right: 2px;
+    margin-left: 2px;
+    padding: 4px 8px;
+  }
+
+  .stat__head,
+  .stat__subhead,
+  .stat__numer {
+    font-size: 32px;
+  }
+
+  .stat__head {
+    margin-right: 25px;
+  }
+
+  .stat__subhead {
+    margin-left: 25px;
+  }
+}

@@ -1,0 +1,39 @@
+.order {
+  margin-bottom: 0;
+  background-image: url("../img/bg-order.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.order__content {
+  margin-left: auto;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  max-width: 620px;
+}
+
+.order__head {
+  @include nospace;
+  margin-bottom: 11px;
+  font-size: 50px;
+  text-align: center;
+  color: $txt-color-light;
+}
+
+.order__text {
+  @include nospace;
+  font-size: 33px;
+  text-align: center;
+  color: $txt-color-light;
+
+  &_small {
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+}
+
+.order__btn {
+  margin-top: 13px;
+}
