@@ -11,6 +11,13 @@
   align-items: center;
 }
 
+.stat__numers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .stat__numer-box {
   margin-right: 3px;
   margin-left: 3px;
@@ -43,6 +50,12 @@
 @media (max-width: $xs-max) {
   .stat__content {
     padding: 25px 0;
+    flex-direction: column;
+  }
+
+  .stat__numers {
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .stat__numer-box {
@@ -58,11 +71,11 @@
   }
 
   .stat__head {
-    margin-right: 20px;
+    margin-right: 0;
   }
 
   .stat__subhead {
-    margin-left: 20px;
+    margin-left: 0;
   }
 }
 
