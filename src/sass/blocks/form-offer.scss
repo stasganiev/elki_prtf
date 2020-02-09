@@ -2,7 +2,11 @@
   max-width: 640px;
   z-index: 10;
   background-color: $bk-color;
-  box-shadow: 0 0 40px 14px $shadow;
+  box-shadow: 0 0 2px 1px $shadow,
+              0 0 5px 2px $shadow,
+              0 0 12px 4px $shadow,
+              0 0 30px 8px $shadow,
+              0 0 75px 16px $shadow;
 }
 
 .form-offer__content {

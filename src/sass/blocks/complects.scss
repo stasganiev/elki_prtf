@@ -1,6 +1,12 @@
 .complects {
+  color: $txt-color-light;
+
   background-image: url("../img/bg-complects.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: auto 770px;
+
+  &__head {
+    @include nospace;
+  }
 }
