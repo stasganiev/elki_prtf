@@ -4,9 +4,50 @@
   background-image: url("../img/bg-complects.jpg");
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: auto 770px;
+  background-size: cover;
+
+  &__content {
+    padding-top: 75px;
+    padding-bottom: 55px;
+  }
 
   &__head {
     @include nospace;
+    text-align: center;
+  }
+
+  &__text {
+    @include nospace;
+    text-align: center;
+  }
+}
+
+@media (max-width: $s-max) {
+  .complects {
+    &__head {
+      margin-bottom: 7px;
+      font-size: 32px;
+    }
+
+    &__text {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 48px;
+      font-size: 16px;
+    }
+  }
+}
+
+@media (min-width: $m-min) {
+  .complects {
+    &__head {
+      margin-bottom: 10px;
+      font-size: 36px;
+    }
+
+    &__text {
+      margin-bottom: 60px;
+      font-size: 18px;
+    }
   }
 }

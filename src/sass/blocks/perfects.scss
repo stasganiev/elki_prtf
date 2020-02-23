@@ -1,9 +1,11 @@
 .perfects {
   display: flex;
-  margin-bottom: 40px;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
 }
 
 .perfects__item {
@@ -36,8 +38,8 @@
   text-align: center;
 }
 
-.perfects__text-head {
-}
-
-.perfects__text {
+@media (min-width: $xl-min) {
+  .perfects {
+    max-width: 75%;
+  }
 }
